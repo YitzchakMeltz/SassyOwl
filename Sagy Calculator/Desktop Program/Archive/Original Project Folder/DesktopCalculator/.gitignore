@@ -1,0 +1,4 @@
+*.pyc
+*.iss
+DesktopCalcuator_1.03.00/*.pyc
+.git/objects/pack/*.pack

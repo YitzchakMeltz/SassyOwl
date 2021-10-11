@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>331</width>
+    <height>411</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="button_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>190</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(255, 255, 255);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(220, 220, 220);
+}
+QPushButton:pressed
+{
+background-color: rgb(212, 212, 212);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_8">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>190</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(255, 255, 255);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(220, 220, 220);
+}
+QPushButton:pressed
+{
+background-color: rgb(212, 212, 212);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_9">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>190</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(255, 255, 255);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(220, 220, 220);
+}
+QPushButton:pressed
+{
+background-color: rgb(212, 212, 212);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(255, 255, 255);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(220, 220, 220);
+}
+QPushButton:pressed
+{
+background-color: rgb(212, 212, 212);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_5">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>240</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(255, 255, 255);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(220, 220, 220);
+}
+QPushButton:pressed
+{
+background-color: rgb(212, 212, 212);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_6">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>240</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(255, 255, 255);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(220, 220, 220);
+}
+QPushButton:pressed
+{
+background-color: rgb(212, 212, 212);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(255, 255, 255);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(220, 220, 220);
+}
+QPushButton:pressed
+{
+background-color: rgb(212, 212, 212);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>290</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(255, 255, 255);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(220, 220, 220);
+}
+QPushButton:pressed
+{
+background-color: rgb(212, 212, 212);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>290</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(255, 255, 255);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(220, 220, 220);
+}
+QPushButton:pressed
+{
+background-color: rgb(212, 212, 212);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_clear">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>340</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(255, 255, 255);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(220, 220, 220);
+}
+QPushButton:pressed
+{
+background-color: rgb(212, 212, 212);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>AC</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_0">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>340</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(255, 255, 255);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(220, 220, 220);
+}
+QPushButton:pressed
+{
+background-color: rgb(212, 212, 212);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_dot">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>340</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(255, 255, 255);
+font: 20pt &quot;Calibri&quot;;
+}
+QPushButton:hover{
+background-color: rgb(220, 220, 220);
+}
+QPushButton:pressed
+{
+background-color: rgb(212, 212, 212);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>.</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_minus">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>240</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(217, 231, 245);
+font: 20pt &quot;calibri&quot;;
+}
+QPushButton:hover{
+background-color: rgb(201, 213, 226);
+}
+QPushButton:pressed
+{
+background-color: rgb(187, 199, 211);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_plus">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>290</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(217, 231, 245);
+font: 20pt &quot;calibri&quot;;
+}
+QPushButton:hover{
+background-color: rgb(201, 213, 226);
+}
+QPushButton:pressed
+{
+background-color: rgb(187, 199, 211);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_openPar">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(232, 232, 232);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(222, 222, 222);
+}
+QPushButton:pressed
+{
+background-color: rgb(211, 211, 211);
+}</string>
+    </property>
+    <property name="text">
+     <string>(</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_closePar">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>140</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(232, 232, 232);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(222, 222, 222);
+}
+QPushButton:pressed
+{
+background-color: rgb(211, 211, 211);
+}</string>
+    </property>
+    <property name="text">
+     <string>)</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_backspace">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>140</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(232, 232, 232);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(222, 222, 222);
+}
+QPushButton:pressed
+{
+background-color: rgb(211, 211, 211);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>⌫</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_div">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>140</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(217, 231, 245);
+font: 20pt &quot;calibri&quot;;
+}
+QPushButton:hover{
+background-color: rgb(201, 213, 226);
+}
+QPushButton:pressed
+{
+background-color: rgb(187, 199, 211);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>÷</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_mult">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>190</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(217, 231, 245);
+font: 20pt &quot;calibri&quot;;
+}
+QPushButton:hover{
+background-color: rgb(201, 213, 226);
+}
+QPushButton:pressed
+{
+background-color: rgb(187, 199, 211);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>×</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_equals">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>340</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border: none;
+background-color: rgb(255, 139, 85);
+font: 20pt &quot;Arial&quot;;
+}
+QPushButton:hover{
+background-color: rgb(230, 125, 76);
+}
+QPushButton:pressed
+{
+background-color: rgb(217, 118, 72);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>=</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="releaseLabel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 4pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(197, 197, 197);</string>
+    </property>
+    <property name="text">
+     <string>  YitzchakMeltz   Release_1.1.0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mathEq">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>291</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(190, 190, 190);</string>
+    </property>
+    <property name="text">
+     <string>Enter Your Equation</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="resultOutput">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 23pt &quot;calibri&quot;;
+color: rgb(94, 94, 94);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>331</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

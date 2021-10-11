@@ -1,0 +1,1 @@
+pyinstaller --onefile --debug=all -w --icon=C:\Users\hmeltz\Documents\GitHub\Artificial-Intelligence-HW\HW3\Connect4Logo_1.0.0.ico C:\Users\hmeltz\Documents\GitHub\Artificial-Intelligence-HW\HW3\play.py

@@ -1,0 +1,1 @@
+pyuic5 C:\Users\hmeltz\Documents\GitHub\DesktopCalculator\ExternalUpdateProgramGUI_1.3.0.ui -o C:\Users\hmeltz\Documents\GitHub\DesktopCalculator\ExternalUpdateProgramGUI_1.3.0.py
