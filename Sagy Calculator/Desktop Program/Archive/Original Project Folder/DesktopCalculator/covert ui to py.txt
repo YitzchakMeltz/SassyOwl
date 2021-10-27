@@ -1,1 +1,11 @@
 pyuic5 C:\Users\hmeltz\Documents\GitHub\DesktopCalculator\ExternalUpdateProgramGUI_1.3.0.ui -o C:\Users\hmeltz\Documents\GitHub\DesktopCalculator\ExternalUpdateProgramGUI_1.3.0.py
+
+or 
+
+pyuic5 DesktopCalculatorGUI_1.06.00.ui -o MainWindowGUI.py
+
+pyuic5 DesktopCalculatorGUI_1.06.01.ui -o MainWindowGUI.py
+
+pyuic5 -x SettingsWindow.ui -o SettingsWindowGUI.py
+
+pyuic5 C:\Users\hmeltz\Documents\GitHub\DesktopCalculator\ui\DesktopCalculatorGUI_1.06.00.ui -o C:\Users\hmeltz\Documents\GitHub\DesktopCalculator\TestPageUiToPy.py
