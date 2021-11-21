@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Sagy Calculator"
-#define MyAppVersion "1.06.02"
+#define MyAppVersion "1.07.00"
 #define MyAppPublisher "Sassy Owl, Inc."
 #define MyAppURL "https://www.meltzphotography.com/"
 #define MyAppExeName "mainControl.exe"
@@ -26,7 +26,7 @@ ChangesAssociations=yes
 DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=C:\Users\hmeltz\Documents\GitHub\SassyOwl\Sagy Calculator\Desktop Program\Release_1.06.02_28-10-2021
+OutputDir=C:\Users\hmeltz\Documents\GitHub\SassyOwl\Sagy Calculator\Desktop Program\Release_1.07.00_21-11-2021
 OutputBaseFilename=SagyCalculatorSetup
 SetupIconFile=C:\Users\hmeltz\Documents\GitHub\SassyOwl\SassyOwlLogo\Logos\SagiInstallLogo(150)_1.0.0.ico
 Compression=lzma
@@ -63,8 +63,8 @@ Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\hmeltz\Documents\GitHub\SassyOwl\Sagy Calculator\Desktop Program\Archive\exe Releases\Release_1.06.02\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\hmeltz\Documents\GitHub\SassyOwl\Sagy Calculator\Desktop Program\Archive\exe Releases\Release_1.06.02\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\hmeltz\Documents\GitHub\SassyOwl\Sagy Calculator\Desktop Program\Archive\exe Releases\Release_1.07.00\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\hmeltz\Documents\GitHub\SassyOwl\Sagy Calculator\Desktop Program\Archive\exe Releases\Release_1.07.00\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
