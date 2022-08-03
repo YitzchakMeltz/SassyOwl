@@ -1,1 +1,1 @@
-pyinstaller --onedir -w --icon=C:\Users\hmeltz\Documents\GitHub\DesktopCalculator\icons\CalculatorLogo(150p)_1.0.0.ico C:\Users\hmeltz\Documents\GitHub\DesktopCalculator\mainControl.py
+pyinstaller --onedir -w --icon=C:\Users\Yitzc\Documents\GitHub\DesktopCalculator\icons\CalculatorLogo(150p)_1.0.0.ico C:\Users\Yitzc\Documents\GitHub\DesktopCalculator\mainControl.py
